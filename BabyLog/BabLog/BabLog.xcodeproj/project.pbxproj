@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		1F3DD2002CA20ACB0079DE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F3DD1E72CA20AC90079DE9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F3DD1EE2CA20AC90079DE9B;
+			remoteInfo = BabLog;
+		};
+		1F3DD20A2CA20ACB0079DE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F3DD1E72CA20AC90079DE9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F3DD1EE2CA20AC90079DE9B;
+			remoteInfo = BabLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F3DD1EF2CA20AC90079DE9B /* BabLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3DD1FF2CA20ACB0079DE9B /* BabLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3DD2092CA20ACB0079DE9B /* BabLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1F3DD1F12CA20AC90079DE9B /* BabLog */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BabLog;
+			sourceTree = "<group>";
+		};
+		1F3DD2022CA20ACB0079DE9B /* BabLogTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BabLogTests;
+			sourceTree = "<group>";
+		};
+		1F3DD20C2CA20ACB0079DE9B /* BabLogUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BabLogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F3DD1EC2CA20AC90079DE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F3DD1FC2CA20ACB0079DE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F3DD2062CA20ACB0079DE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F3DD1E62CA20AC90079DE9B = {
+			isa = PBXGroup;
+			children = (
+				1F3DD1F12CA20AC90079DE9B /* BabLog */,
+				1F3DD2022CA20ACB0079DE9B /* BabLogTests */,
+				1F3DD20C2CA20ACB0079DE9B /* BabLogUITests */,
+				1F3DD1F02CA20AC90079DE9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F3DD1F02CA20AC90079DE9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F3DD1EF2CA20AC90079DE9B /* BabLog.app */,
+				1F3DD1FF2CA20ACB0079DE9B /* BabLogTests.xctest */,
+				1F3DD2092CA20ACB0079DE9B /* BabLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F3DD1EE2CA20AC90079DE9B /* BabLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F3DD2132CA20ACB0079DE9B /* Build configuration list for PBXNativeTarget "BabLog" */;
+			buildPhases = (
+				1F3DD1EB2CA20AC90079DE9B /* Sources */,
+				1F3DD1EC2CA20AC90079DE9B /* Frameworks */,
+				1F3DD1ED2CA20AC90079DE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1F3DD1F12CA20AC90079DE9B /* BabLog */,
+			);
+			name = BabLog;
+			packageProductDependencies = (
+			);
+			productName = BabLog;
+			productReference = 1F3DD1EF2CA20AC90079DE9B /* BabLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F3DD1FE2CA20ACB0079DE9B /* BabLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F3DD2162CA20ACB0079DE9B /* Build configuration list for PBXNativeTarget "BabLogTests" */;
+			buildPhases = (
+				1F3DD1FB2CA20ACB0079DE9B /* Sources */,
+				1F3DD1FC2CA20ACB0079DE9B /* Frameworks */,
+				1F3DD1FD2CA20ACB0079DE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F3DD2012CA20ACB0079DE9B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1F3DD2022CA20ACB0079DE9B /* BabLogTests */,
+			);
+			name = BabLogTests;
+			packageProductDependencies = (
+			);
+			productName = BabLogTests;
+			productReference = 1F3DD1FF2CA20ACB0079DE9B /* BabLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F3DD2082CA20ACB0079DE9B /* BabLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F3DD2192CA20ACB0079DE9B /* Build configuration list for PBXNativeTarget "BabLogUITests" */;
+			buildPhases = (
+				1F3DD2052CA20ACB0079DE9B /* Sources */,
+				1F3DD2062CA20ACB0079DE9B /* Frameworks */,
+				1F3DD2072CA20ACB0079DE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F3DD20B2CA20ACB0079DE9B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1F3DD20C2CA20ACB0079DE9B /* BabLogUITests */,
+			);
+			name = BabLogUITests;
+			packageProductDependencies = (
+			);
+			productName = BabLogUITests;
+			productReference = 1F3DD2092CA20ACB0079DE9B /* BabLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F3DD1E72CA20AC90079DE9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					1F3DD1EE2CA20AC90079DE9B = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					1F3DD1FE2CA20ACB0079DE9B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1F3DD1EE2CA20AC90079DE9B;
+					};
+					1F3DD2082CA20ACB0079DE9B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1F3DD1EE2CA20AC90079DE9B;
+					};
+				};
+			};
+			buildConfigurationList = 1F3DD1EA2CA20AC90079DE9B /* Build configuration list for PBXProject "BabLog" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F3DD1E62CA20AC90079DE9B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1F3DD1F02CA20AC90079DE9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F3DD1EE2CA20AC90079DE9B /* BabLog */,
+				1F3DD1FE2CA20ACB0079DE9B /* BabLogTests */,
+				1F3DD2082CA20ACB0079DE9B /* BabLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F3DD1ED2CA20AC90079DE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F3DD1FD2CA20ACB0079DE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F3DD2072CA20ACB0079DE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F3DD1EB2CA20AC90079DE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F3DD1FB2CA20ACB0079DE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F3DD2052CA20ACB0079DE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F3DD2012CA20ACB0079DE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F3DD1EE2CA20AC90079DE9B /* BabLog */;
+			targetProxy = 1F3DD2002CA20ACB0079DE9B /* PBXContainerItemProxy */;
+		};
+		1F3DD20B2CA20ACB0079DE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F3DD1EE2CA20AC90079DE9B /* BabLog */;
+			targetProxy = 1F3DD20A2CA20ACB0079DE9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F3DD2112CA20ACB0079DE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F3DD2122CA20ACB0079DE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F3DD2142CA20ACB0079DE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BabLog/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ParViaD.BabLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F3DD2152CA20ACB0079DE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BabLog/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ParViaD.BabLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F3DD2172CA20ACB0079DE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ParViaD.BabLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabLog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BabLog";
+			};
+			name = Debug;
+		};
+		1F3DD2182CA20ACB0079DE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ParViaD.BabLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabLog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BabLog";
+			};
+			name = Release;
+		};
+		1F3DD21A2CA20ACB0079DE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ParViaD.BabLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabLog;
+			};
+			name = Debug;
+		};
+		1F3DD21B2CA20ACB0079DE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ParViaD.BabLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F3DD1EA2CA20AC90079DE9B /* Build configuration list for PBXProject "BabLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3DD2112CA20ACB0079DE9B /* Debug */,
+				1F3DD2122CA20ACB0079DE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F3DD2132CA20ACB0079DE9B /* Build configuration list for PBXNativeTarget "BabLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3DD2142CA20ACB0079DE9B /* Debug */,
+				1F3DD2152CA20ACB0079DE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F3DD2162CA20ACB0079DE9B /* Build configuration list for PBXNativeTarget "BabLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3DD2172CA20ACB0079DE9B /* Debug */,
+				1F3DD2182CA20ACB0079DE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F3DD2192CA20ACB0079DE9B /* Build configuration list for PBXNativeTarget "BabLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3DD21A2CA20ACB0079DE9B /* Debug */,
+				1F3DD21B2CA20ACB0079DE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F3DD1E72CA20AC90079DE9B /* Project object */;
+}
