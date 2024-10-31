@@ -9,13 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            Color
+                .mint
+                .opacity(0.3)
+                .ignoresSafeArea()
+            VStack {
+                Image(systemName: "calendar.circle.fill")
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
+                    .padding()
+                Text("Here marks the beginning of making MY DaysReminder")
+                    .multilineTextAlignment(.center)
+                
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
