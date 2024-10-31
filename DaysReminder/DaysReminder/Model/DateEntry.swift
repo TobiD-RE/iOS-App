@@ -20,7 +20,7 @@ public class DateEntry: NSManagedObject {
     @NSManaged public var notificationEnabled: Bool
     @NSManaged public var notificationTime: Date?
     
-    convenience init(context: NSManagedObjectContext, id: UUID, title: String, date: Date, isAnniversary: Bool, tag: String, createDate: Date, notificationEnabled: Bool, notificationTime: Date? = nil) {
+    convenience init(context: NSManagedObjectContext, title: String, date: Date, isAnniversary: Bool, tag: String, createDate: Date, notificationEnabled: Bool, notificationTime: Date? = nil) {
         self.init(context: context)
         self.id = UUID()
         self.title = title
